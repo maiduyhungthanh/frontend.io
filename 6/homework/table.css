@@ -1,0 +1,69 @@
+*{
+
+	box-sizing: border-box;
+	
+}
+body{
+    margin-top: 50px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 20px;
+}
+
+caption {font-size: 50px;
+                text-align: left;
+                font-family: sans-serif;
+                margin-bottom: 50px;}
+
+sub {font-size: 55px;}
+sup {font-size: 20px;}
+
+.names {display: flex;
+           border-right: none;}
+
+.location {border-right: none;
+                border-left: none;}           
+.email {border-right: none;
+                border-left: none;}   
+.phone {
+                border-left: none;}                 
+.name {margin-top: 18px;}
+
+
+thead tr th {text-align: left;}
+
+tbody tr td img { width: 40px;
+                            height: 40px;
+                            border-radius: 50px;
+                            margin-right: 20px;
+                            margin-top: 10px;
+                            }
+
+
+
+
+th,
+td {border-top: 1px solid rgb(180, 173, 173);
+    border-right: 1px solid rgb(180, 173, 173);
+    border-bottom: 1px solid rgb(180, 173, 173);
+    border-left: 1px solid rgb(180, 173, 173);
+     width: 250px;
+     height: 80px;
+    padding: 10px;    
+    }
+
+    tbody tr:nth-child(2n+1) {background: burlywood;}
+
+   
+
+table {border-collapse: collapse;
+            table-layout: fixed;
+            margin-left: 100px;
+        }
+
+figure {display: flex;
+justify-content: flex-end;}
+
+.tech {width: 150px;
+                            height: 75px;}

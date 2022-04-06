@@ -1,0 +1,15 @@
+body {background-color: burlywood;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           }
+th { font-style: italic;
+        color: darkblue;
+        border:1px solid #868585;
+        background-color: darkturquoise;
+}
+.one { background-color: red;}
+table {width: 70%;
+            height: 400px; 
+}
+td { background-color: gainsboro;
+       text-align: center;
+}

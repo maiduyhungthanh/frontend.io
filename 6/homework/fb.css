@@ -1,0 +1,142 @@
+*{
+
+	box-sizing: border-box;
+	
+}
+body{
+	max-width: 975px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.fullpaper {display: flex;
+	height: 700px;
+	
+	
+}
+
+.left {margin-top: 200px;
+	
+	width: 580px;}
+.left p {font-size: 20px ;
+			margin-right: 20px;
+			font-weight: 540;
+			}
+
+.right {
+		margin-top: 130px;
+		display: block;
+		text-align: center;
+		flex-direction: column;
+		width: 400px;
+		height: 350px;
+		border: 1px solid #dadde1;
+		border-top: none;
+		
+	
+
+    box-shadow: inset 2px 0px 0px #e4e6e9, 4px 10px 0px #e4e6e9;
+}
+
+		
+
+input {width: 365px;
+			height: 52px;
+			margin-top: 10px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-bottom: 3px;
+			border: 1px solid #dadde1;
+			
+			border-radius: 5px;}
+
+imput :focus {border: 1px solid #1877f2;}
+.login { width: 365px;
+			height: 52px;
+			background: #1877f2;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 11px;
+			border: none;
+			border-radius: 5px;
+			font-family: sans-serif;
+			color: aliceblue;
+			font-size: 20px;
+			font-weight: bold;}
+
+.login :in-range {border: 2px royalblue;}
+
+.end a{ text-decoration: none;
+			color: black;
+			font-weight: 700;}
+.ends .end {font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		margin-top: 30px;
+		text-align: center;
+		}
+
+.newaccount {
+			width: 180px;
+			height: 50px;
+			background: rgb(66, 183,42);
+			margin-top: 8px;
+			border: none;
+			margin-left: 110px;
+			margin-right: 110px;
+			border-radius: 5px;
+			color: aliceblue;
+			font-size: 16px;
+			font-weight: bold;
+			
+}
+.line {align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center}
+.forget a{text-decoration: none;
+				color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+font-family: SFProText-Regular, Helvetica, Arial, sans-serif;}
+
+.name {padding: 20px;}
+.password {padding: 20px;}
+
+
+::placeholder {font-size: 18px;
+						font-weight: lighter;
+						color: #ccd0d5;}
+
+input :hover {border: 10px solid blue;}
+
+
+.language {display: flex;
+justify-content: flex-start;
+text-decoration: none;
+position: relative;
+list-style: none;
+margin-left: -40px;}
+
+.language li a {
+	text-decoration: none;
+	justify-content: flex-start;
+	padding: 5px;
+	font-size: 14px;
+	color: rgb(56,88,152);
+}
+
+.help {display: flex;
+list-style: none;
+flex-wrap: wrap;
+margin-left: -40px;}
+.help li a{	text-decoration: none;
+	justify-content: flex-start;
+	margin-right: 18px;
+	font-size: 14px;
+	color: rgb(56,88,152)
+}
+
+.help li a img {width: 15px;
+height: 15px;
+padding-top: 4px;}
